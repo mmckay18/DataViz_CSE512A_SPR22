@@ -1,0 +1,15 @@
+For my visualization I chose to use 
+
+- Goal for visualization
+
+For my visualization, I chose to use a pie chart and a google map representation of the United States. The aim is to compare other major cities' average sunshine in the winter to New York City's average.
+
+- Data Preprocessing
+
+The sunshine dataset is categorical and can thus be compared to each other when separated. First, I grouped the dataset by city and seasons, where each season is a list of months, i.e., winter = ['Dec', 'Jan', 'Feb']. I then took the average sunshine hours/month for the winter months for a given city. Finally, I normalized the winter seasons by New York City and showed the values of the ratios in the pie chart.
+
+- Why the visuals design
+
+I used the radial bar chart visual encoding because it allows me to show relative proportion without relying on text. My intention is for the reader to make a quick comparison to the sunshine in New York City, so I added markers, text, and transparent background to contrast the other major cities. In addition, I show the New York bar height compared to the bars below the height to further distinguish cities above and below the ratio. The size of the pie chart helps utilize the dead space in the middle of the US map, which we had no data on. The size of the slices is the same to mitigate confusion between the bar height and size. The map provides the reader a connection to geography and spatial representation of the cities, making it quicker for them to grasp the main idea with little text. The map's scale was chosen to only show the US and the names of the cities in the dataset to identify the colors with the pie chart colors. The US map is annotated with identically sized circles for each location. New York is also clearly seen with the only red marker emoji and the average sunshine in winter, further highlighting the significants of New York in the visualization. I also believe that using a spatial map could make room for further insight when exploring other seasons. I picked pastel colors to be a contrast for the US map to draw the eye to the chart. The color was selected by a visualization color tool online called data color picker ([link](https://learnui.design/tools/data-color-picker.html)) and is identical to the location of the color on the US map.
+
+The decisions I made for my visualization were to let the human mind make the connections through proportions, spatial maps, and colors. This facilitates effective communication because it does not overburden the reader like large amounts of text do and allows the reader to come to conclusions quickly. However, the visualizations could be challenging to read the smaller text of the cities, and they are distracting if the reader doesn't care for the spatial component. Also, the visualization only shows a piece of the data and thus limits any further insight without more data analysis.
